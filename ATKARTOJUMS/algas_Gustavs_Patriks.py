@@ -15,7 +15,7 @@ while True:
 for n in range(1, skaits+1):
     while True:
         try:
-            alga = float(input(f'Ievadiet {n}. algu: '))
+            alga = float(input(f'Ievadiet {n}. algu [>0]: '))
             if alga > 0:
                 algas.append(alga)
                 break
